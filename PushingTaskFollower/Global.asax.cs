@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Configuration;
+using MyCouch;
 
 namespace PushingTaskFollower
 {
@@ -24,5 +26,19 @@ namespace PushingTaskFollower
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
         }
+
+       
+            
+        //public static Repository<T> GetRepository<T>() where T : class
+        //{
+        //    const string databaseName = "db";
+        //    var connection = new Connection(
+        //        new Uri(ConfigurationManager.AppSettings.Get("CLOUDANT_URL")));
+        //    if (!connection.ListDatabases().Contains(databaseName))
+        //    {
+        //        connection.CreateDatabase(databaseName);
+        //    }
+        //    return new Repository<T>(connection.CreateSession(databaseName));
+        //}
     }
 }

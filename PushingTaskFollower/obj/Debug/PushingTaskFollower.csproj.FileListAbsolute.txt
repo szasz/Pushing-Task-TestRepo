@@ -80,6 +80,11 @@ D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\ko\System.Spatial.resour
 D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\ru\System.Spatial.resources.dll
 D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\zh-Hans\System.Spatial.resources.dll
 D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\zh-Hant\System.Spatial.resources.dll
-D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\obj\Debug\PushingTaskFollower.csprojResolveAssemblyReference.cache
 D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\obj\Debug\PushingTaskFollower.dll
 D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\obj\Debug\PushingTaskFollower.pdb
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\EnsureThat.dll
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\MyCouch.Cloudant.Net45.dll
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\MyCouch.Net45.dll
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\MyCouch.Cloudant.Net45.xml
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\MyCouch.Net45.xml
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\obj\Debug\PushingTaskFollower.csprojResolveAssemblyReference.cache
