@@ -1,5 +1,4 @@
-﻿using MyCouch;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -12,13 +11,7 @@ namespace PushingTaskFollower.Controllers
     {
         public ActionResult Index()
         {
-            var couchClient = CouchClient();
-            //Name or password is incorrect, unauthorized
-            var post = couchClient.Documents.PostAsync("{\"msg\": \"MyCouch says hello to Cloudant!\"}").Result;
-
-            var requested = couchClient.Documents.GetAsync(post.Id);
-
-            ViewBag.Message = requested.Result.Content;
+			ViewBag.Message = "{\"msg\": \"MyCouch says hello to Cloudant!\"}";
 
             return View();
         }
@@ -37,16 +30,11 @@ namespace PushingTaskFollower.Controllers
             return View();
         }
 
-        public static MyCouchClient CouchClient()
-        {
-            var couchUrl = ConfigurationManager.AppSettings.Get("CLOUDANT_URL");
-            var uriBuilder = new MyCouchUriBuilder(couchUrl)
-            .SetDbName("db")
-            .SetBasicCredentials("szasz", "Asgard23");
+		public ActionResult Hooks() 
+		{
+			ViewBag.Message = "Your Hooks page.";
 
-            return new MyCouchClient(uriBuilder.Build());
-        }
-
-
+			return View();
+		}
     }
 }
