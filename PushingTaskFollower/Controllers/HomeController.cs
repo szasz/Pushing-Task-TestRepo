@@ -30,11 +30,11 @@ namespace PushingTaskFollower.Controllers
             return View();
         }
 
-		public ActionResult Hooks() 
+		public JsonResult Hooks() 
 		{
-			ViewBag.Message = "Your Hooks page.";
+			return new JsonResult { Data = "{\"valami\": \"asdfg\"}" , JsonRequestBehavior = JsonRequestBehavior.AllowGet };
 
-			return View();
+			/// ezt az adatot meg továbbdobom, azure-felé pl. ami feldolgozza :)
 		}
     }
 }
