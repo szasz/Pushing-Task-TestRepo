@@ -30,9 +30,10 @@ namespace PushingTaskFollower.Controllers
             return View();
         }
 
-		public JsonResult Hooks() 
+        public JsonResult Hooks(object test) 
 		{
-			return new JsonResult { Data = "{\"valami\": \"asdfg\"}" , JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+            return new JsonResult { Data = test.ToString(), JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+            //return new JsonResult { Data = "{\"valami\": \"asdfg\"}" , JsonRequestBehavior = JsonRequestBehavior.AllowGet };
 
 			/// ezt az adatot meg továbbdobom, azure-felé pl. ami feldolgozza :)
 		}
