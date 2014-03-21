@@ -30,7 +30,7 @@ namespace PushingTaskFollower.Controllers
             return View();
         }
 
-        public JsonResult Hooks(object test) 
+        public JsonResult Hooks(HttpContext test) 
 		{
             return new JsonResult { Data = test.ToString(), JsonRequestBehavior = JsonRequestBehavior.AllowGet };
             //return new JsonResult { Data = "{\"valami\": \"asdfg\"}" , JsonRequestBehavior = JsonRequestBehavior.AllowGet };
