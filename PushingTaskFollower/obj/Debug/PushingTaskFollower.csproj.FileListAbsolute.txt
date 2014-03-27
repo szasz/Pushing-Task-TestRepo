@@ -177,3 +177,6 @@ D:\DEV\work\Pushing-Task-TestRepo\PushingTaskFollower\bin\zh-Hant\System.Spatial
 D:\DEV\work\Pushing-Task-TestRepo\PushingTaskFollower\obj\Debug\PushingTaskFollower.csprojResolveAssemblyReference.cache
 D:\DEV\work\Pushing-Task-TestRepo\PushingTaskFollower\obj\Debug\PushingTaskFollower.dll
 D:\DEV\work\Pushing-Task-TestRepo\PushingTaskFollower\obj\Debug\PushingTaskFollower.pdb
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\PTF.Core.dll
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\bin\PTF.Core.pdb
+D:\DEV\Work\PushingTaskFollower\PushingTaskFollower\obj\Debug\PushingTaskFollower.csprojResolveAssemblyReference.cache

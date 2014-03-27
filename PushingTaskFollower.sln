@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushingTaskFollower", "PushingTaskFollower\PushingTaskFollower.csproj", "{3D6F573C-E304-45A8-9429-950DD00C0AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PushingTaskFollowerUnitTests", "PushingTaskFollowerUnitTests\PushingTaskFollowerUnitTests.csproj", "{BA0DD559-2558-46B1-AEC2-69E4B32A0B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTF.Core", "PTF.Core\PTF.Core.csproj", "{F992D2B9-3BEC-4AA7-B976-B492E226B1FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{3D6F573C-E304-45A8-9429-950DD00C0AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D6F573C-E304-45A8-9429-950DD00C0AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D6F573C-E304-45A8-9429-950DD00C0AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0DD559-2558-46B1-AEC2-69E4B32A0B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0DD559-2558-46B1-AEC2-69E4B32A0B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0DD559-2558-46B1-AEC2-69E4B32A0B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0DD559-2558-46B1-AEC2-69E4B32A0B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F992D2B9-3BEC-4AA7-B976-B492E226B1FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F992D2B9-3BEC-4AA7-B976-B492E226B1FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F992D2B9-3BEC-4AA7-B976-B492E226B1FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F992D2B9-3BEC-4AA7-B976-B492E226B1FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PTF.Core.Model;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -30,13 +31,25 @@ namespace PushingTaskFollower.Controllers
             return View();
         }
 
-        public JsonResult Hooks(HttpContext context) 
-		{
+        //public ActionResult Hooks()
+        //{
+        //    var context = this.ControllerContext;
 
-            return new JsonResult { Data = context.Request["data"], JsonRequestBehavior = JsonRequestBehavior.AllowGet };
-            //return new JsonResult { Data = "{\"valami\": \"asdfg\"}" , JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+        //    var reqContext = this.ControllerContext.RequestContext;
+        //    var resContext = this.ControllerContext.HttpContext.Response;
+            
+        //    //ViewBag.Message = "asdas";
+        //    //[8:15:15] Péter Takács: this.ControllerContext-en
+        //    return View();
+        //}
 
-			/// ezt az adatot meg továbbdobom, azure-felé pl. ami feldolgozza :)
-		}
+        public JsonResult Hooks(Payload hooks)
+        {
+
+
+            return new JsonResult { Data = hooks, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
+
+            /// ezt az adatot meg továbbdobom, azure-felé pl. ami feldolgozza :)
+        }
     }
 }
