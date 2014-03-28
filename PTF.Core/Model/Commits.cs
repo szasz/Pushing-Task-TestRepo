@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PTF.Core.Model
 {
-    public class Commits
+    public class Commit
     {
         public string Id { get; set; }
         public string Distinct { get; set; }

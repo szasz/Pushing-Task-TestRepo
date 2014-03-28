@@ -16,7 +16,10 @@ namespace PTF.Core.Model
         public string Forced { get; set; }
         public string Compare { get; set; }
 
-        public Commits Commits { get; set; }
+		/// <summary>
+		/// A commitok listájával tér vissza.
+		/// </summary>
+        public IEnumerable<Commit> Commits { get; set; }
     }
 }
 
@@ -66,6 +69,7 @@ namespace PTF.Core.Model
 //      ]
 //    }
 //  ],
+
 //  "head_commit": {
 //    "id": "9448c109292b4a237b1f49e7495ee27b8c8f2ee7",
 //    "distinct": true,
