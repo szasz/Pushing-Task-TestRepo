@@ -43,6 +43,8 @@
     <Compile Include="GithubHook.cs" />
     <Compile Include="Model\Author.cs" />
     <Compile Include="Model\Commits.cs" />
+    <Compile Include="Model\Committer.cs" />
+    <Compile Include="Model\Owner.cs" />
     <Compile Include="Model\Payload.cs" />
     <Compile Include="Model\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

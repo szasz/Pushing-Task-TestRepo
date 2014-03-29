@@ -15,7 +15,11 @@ namespace PTF.Core.Model
         public string Url { get; set; }
 
         public Author Author { get; set; }
+        public Committer Committer { get; set; }
 
+        public List<string> Added { get; set; }
+        public List<string> Removed { get; set; }
+        public List<string> Modified { get; set; }
     }
 
     //  "commits": [

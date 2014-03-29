@@ -18,11 +18,17 @@ namespace PTF.Core.Model
         public string Fork { get; set; }
         public string Size { get; set; }
 
-        //owner
+        public Owner Owner { get; set; }
+
         public string Private { get; set; }
         public string OpenIssues { get; set; }
         public string HasIssues { get; set; }
-
+        public string HasDownloads { get; set; }
+        public string HasWiki { get; set; }
+        public string Language { get; set; }
+        public string CreatedAt { get; set; }
+        public string PushedAt { get; set; }
+        public string MasterBranch { get; set; }
     }
 
     //"repository": {
